@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="blog-intro">
+  {{ .Content }} <!-- This will render the Markdown content of _index.md -->
+</div>
+
+<h2 class="page-title">Blog posts</h1>
+
+<ul class="posts">
+	{{- range .Data.Pages -}}
+		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+		<li class="post">
+			<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
+		</li>
+		{{- end -}}
+	{{- end -}}
+</ul>
+
+{{ end }}

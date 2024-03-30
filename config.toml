@@ -1,0 +1,79 @@
+baseurl = "https://blog.glowtimer.com"
+languageCode = "en-us"
+theme = "archie"
+paginate = 30
+
+staticDir = ["static/other", "static/pdf", "static/img", "static/audio", "static/vid"]
+
+[imaging]
+  resampleFilter = "box"
+
+  quality = 80
+
+  # Anchor used when cropping pictures.
+  # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  anchor = "smart"
+
+  # Default background color. 
+  # Expects a standard HEX color string with 3 or 6 digits.
+  bgColor = "#ffffff"
+
+[params]
+  mode="toggle" # color-mode → light,dark,toggle or auto
+  useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+  mathjax = false
+  katex = false
+
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "blog"
+  # "light" or "dark"
+  defaultTheme = "light"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xHTML = false
+
+[languages]
+  [languages.en]
+    title = "GlowTimer blog"
+    subtitle = "Blog for the GlowTimer project"
+    keywords = ""
+    copyright = "Jonathan Rico"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    lastModDisplay = "Last modified:"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "kickstarter"
+        name = "Kickstarter"
+        url = "https://www.kickstarter.com/projects/jonmrico/glowtimer-timekeeping-for-small-humans"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/"
