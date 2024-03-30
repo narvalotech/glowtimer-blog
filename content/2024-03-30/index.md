@@ -127,8 +127,6 @@ To mitigate this risk, I will be working closely with a so-called "turnkey" manu
 
 In the worst case, if the project fails, all design files will be made available to backers.
 
-TODO: link about risks on kickstarter
-
 ## Environmental commitments
 
 ### Long-lasting design
