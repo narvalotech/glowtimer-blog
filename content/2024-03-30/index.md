@@ -8,7 +8,7 @@ This is a copy of the campaign text [on kickstarter](https://www.kickstarter.com
 
 <!--more-->
 
-![Proto 3](img/proto3-front1.JPG)
+![Proto 3](proto3-front1.JPG)
 
 ## Story
 
@@ -83,13 +83,13 @@ In order to not drain the battery, a bespoke power-cut circuit also had to be ma
 
 As you can see, enclosure design went through a few iterations!
 
-![leds](img/proto-led.JPG)
+![leds](proto-led.JPG)
 
-![buttons](img/proto-buttons.jpg)
+![buttons](proto-buttons.jpg)
 
-![insides](img/proto-insides.JPG)
+![insides](proto-insides.JPG)
 
-![3d prints](img/3d-prints.JPG)
+![3d prints](3d-prints.JPG)
 
 ### Second prototype
 
@@ -98,13 +98,13 @@ I redesigned the hardware properly so it would be able to be mass-manufactured. 
 Components were placed by hand and soldered at home with a hotplate.
 A few touch-ups were necessary for the design to work. But the overall design and component selection was validated!
 
-![solder paste](img/pasting.jpg)
+![solder paste](pasting.jpg)
 
-![bring-up](img/proto2-bringup.jpg)
+![bring-up](proto2-bringup.jpg)
 
-![front](img/proto3-front2.JPG)
+![front](proto3-front2.JPG)
 
-![back](img/proto3-back.JPG)
+![back](proto3-back.JPG)
 
 ## About me
 
