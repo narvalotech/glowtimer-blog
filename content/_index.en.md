@@ -6,7 +6,7 @@ date: 2024-03-30
 
 # Welcome to the GlowTimer blog!
 
-![Proto 3](img/proto3-front1.JPG)
+![Proto 3](proto3-front1.JPG)
 
 ## In a nutshell 
 
