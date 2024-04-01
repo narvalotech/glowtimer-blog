@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "archie"
 paginate = 30
 
-staticDir = ["static/other", "static/pdf", "static/img", "static/audio", "static/vid"]
+staticDir = ["static/other"]
 
 [permalinks]
   "/" = ":year-:month-:day/:title/"
