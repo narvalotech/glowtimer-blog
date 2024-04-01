@@ -5,6 +5,9 @@ paginate = 30
 
 staticDir = ["static/other", "static/pdf", "static/img", "static/audio", "static/vid"]
 
+[permalinks]
+  "/" = ":year-:month-:day/:title/"
+
 [imaging]
   resampleFilter = "box"
 
