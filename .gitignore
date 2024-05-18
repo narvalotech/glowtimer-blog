@@ -1,2 +1,5 @@
 public/
 output/
+resources/_gen
+.hugo_build.lock
+.git.*
