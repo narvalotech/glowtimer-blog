@@ -60,9 +60,8 @@ staticDir = ["static/other"]
   [languages.en]
     languageName = "English"
     weight = 1
+    title = "GlowTimer blog"
     [languages.en.params]
-      title = "GlowTimer blog"
-      subtitle = "Blog for the GlowTimer project"
       copyright = "Jonathan Rico"
       dateFormatSingle = "2006-01-02"
       dateFormatList = "2006-01-02"
@@ -85,9 +84,8 @@ staticDir = ["static/other"]
   [languages.fr]
     languageName = "Français"
     weight = 2
+    title = "GlowTimer blog"
     [languages.fr.params]
-      title = "GlowTimer blog"
-      subtitle = "Blog du projet GlowTimer"
       copyright = "Jonathan Rico"
       dateFormatSingle = "2006-01-02"
       dateFormatList = "2006-01-02"
